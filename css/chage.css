@@ -14,9 +14,9 @@
     --font-size-subtitle-mobile: 16px;
     --font-size-paragraph-mobile: 14px;
 
-    --color-primary: #F5F5F5;
-    --color-secondary: #cbcff3;
-    --color-third: #fff;
+    --color-primary: #F8F6F4;
+    --color-secondary: #E3F4F4;
+    --color-third: #C4DFDF;
 }
 
 * {
@@ -41,6 +41,7 @@ section {
     display: flex;
     justify-content: space-between;
     font-size: var(--font-size-paragraph-desktop);
+    background-color: #E3F4F4;
 }
 
 .navbar__greeting,
@@ -96,6 +97,7 @@ section {
 
 /* Skills & Hobbies */
 .skills-hobbies__list {
+    margin-block: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +117,6 @@ section {
 
 .skills-hobbies__title {
     text-align: center;
-    margin-bottom: 32px;
     font-size: var(--font-size-h2-desktop);
 }
 
@@ -142,7 +143,7 @@ section {
 .academic-image {
     width: 368px;
     height: 286px;
-    background-color: burlywood;
+    background-color: var(--color-third);
 }
 
 .academic-formation__item {
@@ -259,16 +260,19 @@ section {
 }
 
 .contact__button {
-    padding: 10px 15px;
     background-color: #2A7AE4;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    padding: 16px
 }
 
 .contact__button:hover {
-    background-color: #0056b3;
+    background-color: #FFFFFF;
+    color: #2A7AE4;
+    outline: 1px solid #2A7AE4;
+    
 }
 
 .contact__form-group {
@@ -352,6 +356,10 @@ footer{
         gap: 10px;
     }
 
+    .skills-hobbies__list{
+        margin-block: 16px;
+    }
+
     .skills-hobbies__item {
         width: 224px;
         height: 118px;
@@ -402,7 +410,7 @@ footer{
     }
 
     .contact__title {
-        margin: 8px;
+        margin-bottom: 8px;
         font-size: var(--font-size-h-mobile);
         text-align: center;
     }
