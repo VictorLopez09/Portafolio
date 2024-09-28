@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/chage.css">
+    <meta name="description" content="Este es mi portafolio de victor">
+    <title>Mi portafolio</title>
 </head>
 
 <body>
     <nav class="navbar">
         <p class="navbar__greeting">
-            Hi, my name is Victor
+            Victor
         </p>
         <ul class="navbar__menu">
             <li class="navbar__menu-item">Sobre mí</li>
@@ -21,7 +22,11 @@
             <li class="navbar__menu-item">Proyectos</li>
             <li class="navbar__menu-item">Contacto</li>
         </ul>
+        <p class="navbar__contact">
+            ejemplo@correo.com
+        </p>
     </nav>
+
 
     <section class="intro">
         <div class="intro__information">
@@ -33,24 +38,24 @@
                 enim magnam quos pariatur excepturi, impedit deserunt?</p>
             <ul class="intro__links">
                 <li class="intro__links-item">Link
-                    <img src="img/share.svg">
+                    <img src="img/share.svg" alt="arrow">
                 </li>
                 <li class="intro__links-item">Link
-                    <img src="img/share.svg">
+                    <img src="img/share.svg" alt="arrow">
                 </li>
                 <li class="intro__links-item">Link
-                    <img src="img/share.svg">
+                    <img src="img/share.svg" alt="arrow">
                 </li>
+
             </ul>
         </div>
-
     </section>
 
 
     <section class="about-me">
         <div class="about-me__content">
             <h2 class="about-me__title">About Me</h2>
-            <p >
+            <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur harum temporibus, doloribus est
                 sequi saepe maiores consequuntur dolores excepturi blanditiis ipsum, atque iure optio minima unde. Vero
                 labore modi suscipit.
@@ -61,8 +66,6 @@
                 corrupti quaerat iste odit reprehenderit.
             </p>
         </div>
-
-
     </section>
 
 
@@ -76,7 +79,7 @@
                 <li class="skills-hobbies__item">Laravel</li>
             </ul>
         </div>
-    
+
         <div class="skills-hobbies__hobbies">
             <h2 class="skills-hobbies__title">Hobbies</h2>
             <ul class="skills-hobbies__list">
@@ -88,36 +91,47 @@
         </div>
     </section>
 
-
     <section class="academic-formation">
-        
+
         <h2 class="academic-formation__title">Formación Académica</h2>
 
         <ul class="academic-body">
             <li class="academic-formation__item">
                 <div class="academic-image"></div>
-                
+
                 <h3 class="academic-formation__degree">Licenciatura en Ingeniería de Software</h3>
                 <p class="academic-formation__institution">Universidad de Tecnología</p>
                 <p class="academic-formation__years">2015 - 2019</p>
             </li>
             <li class="academic-formation__item">
                 <div class="academic-image"></div>
-    
+
                 </div>
                 <h3 class="academic-formation__degree">Maestría en Ciencias de la Computación</h3>
                 <p class="academic-formation__institution">Instituto Tecnológico de Estudios Superiores</p>
                 <p class="academic-formation__years">2020 - 2022</p>
             </li>
+
+            <li class="academic-formation__item">
+                <div class="academic-image"></div>
+
+                </div>
+                <h3 class="academic-formation__degree">Maestría en Ciencias de la Computación</h3>
+                <p class="academic-formation__institution">Instituto Tecnológico de Estudios Superiores</p>
+                <p class="academic-formation__years">2020 - 2022</p>
+            </li>
+
+
         </ul>
     </section>
 
 
-    <section class="experience" id="experience-professional">
+    <section class="experience">
         <h2 class="experience__title">Professional Experience</h2>
 
-        <div class="experience-body">
-            <article class="experience__item">
+
+        <ul class="experience-body">
+            <li class="experience__item">
                 <div class="experience__image">
                     <!-- Aquí puedes agregar una imagen relacionada con el trabajo -->
                 </div>
@@ -129,61 +143,51 @@
                         <a href="#" class="experience__link experience__link--demo">View Demo</a>
                     </div>
                 </div>
-            </article>
-
-        </div>   
-       
+            </li>
+        </ul>
     </section>
-    
-    <div class="contact">
+
+    <section class="contact">
         <div class="contact__image">
             <img src="img/contact.jpg" alt="Contact Image">
         </div>
-        
+
         <div class="contact__form-content">
             <h2 class="contact__title">Contact Me</h2>
-    
+
             <form action="#" method="POST" class="contact__form">
                 <div class="contact__form-group">
                     <label for="name" class="contact__label">Name</label>
                     <input type="text" id="name" name="name" class="contact__input" placeholder="Your Name" required>
                     <span class="contact__indicator"></span>
                 </div>
-    
+
                 <div class="contact__form-group">
                     <label for="email" class="contact__label">Email</label>
-                    <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email" required>
+                    <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email"
+                        required>
                     <span class="contact__indicator"></span>
                 </div>
 
                 <div class="contact__form-group">
                     <label for="email" class="contact__label">Email</label>
-                    <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email" required>
+                    <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email"
+                        required>
                     <span class="contact__indicator"></span>
                 </div>
-    
+
                 <div class="contact__form-group">
                     <label for="message" class="contact__label">Message</label>
-                    <textarea id="message" name="message" class="contact__textarea" placeholder="Your Message" required></textarea>
+                    <textarea id="message" name="message" class="contact__textarea" placeholder="Your Message"
+                        required></textarea>
                     <span class="contact__indicator"></span>
                 </div>
-    
+
                 <button type="submit" class="contact__button">Send Message</button>
             </form>
         </div>
-    </div>
-    
-    <footer>
-        <p>
-            Developed by Victor
-        </p>
-        <p>
-            2024
-        </p>
-    </footer>
-    
-    
-    
+    </section>
+
 </body>
 
 </html>
