@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/chage.css">
+    <link rel="stylesheet" href="css/app.min.css">
     <meta name="description" content="Este es mi portafolio de victor">
     <title>Mi portafolio</title>
 </head>
@@ -15,12 +15,33 @@
             Victor
         </p>
         <ul class="navbar__menu">
-            <li class="navbar__menu-item">Sobre mí</li>
-            <li class="navbar__menu-item">Skills</li>
-            <li class="navbar__menu-item">Hobbies</li>
-            <li class="navbar__menu-item">Formación</li>
-            <li class="navbar__menu-item">Proyectos</li>
-            <li class="navbar__menu-item">Contacto</li>
+            <li class="navbar__menu-item">
+                <a href="#about-me" class="-link">Sobre mí</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="#skills-hobbies__skills" class="-link">Skills</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="#skills-hobbies__hobbies" class="-link">
+                    Hobbies
+                </a>
+
+            </li>
+            <li class="navbar__menu-item">
+                <a href="#academic-formation" class="-link">
+                    Formación
+                </a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="#experience" class="-link">
+                    Proyectos
+                </a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="#contact" class="-link">
+                    Contacto
+                </a>
+            </li>
         </ul>
         <p class="navbar__contact">
             ejemplo@correo.com
@@ -35,23 +56,32 @@
             </h1>
             <p class="intro__description">Desarrollador Full Stack con entusiasmo por la tecnología</p>
             <ul class="intro__links">
-                <li class="intro__links-item">Link
-                    <img src="img/share.svg" alt="arrow">
+                <li class="intro__links-item">
+                    <a href="" class="-link">
+                        Link
+                        <img src="img/share.svg" alt="arrow">
+                    </a>
                 </li>
-                <li class="intro__links-item">Link
+                <li class="intro__links-item">
+                    <a href="" class="-link"></a>
+                    Link
                     <img src="img/share.svg" alt="arrow">
+                    </a>
                 </li>
-                <li class="intro__links-item">Link
+                <li class="intro__links-item">
+                    <a href="" class="-link"></a>
+                    Link
                     <img src="img/share.svg" alt="arrow">
+                    </a>
                 </li>
 
             </ul>
         </div>
-        
+
     </section>
 
 
-    <section class="about-me">
+    <section class="about-me" id="about-me">
         <div class="about-me__content">
             <h2 class="about-me__title">Acerca de mí</h2>
             <p>
@@ -67,12 +97,12 @@
             </p>
         </div>
 
-        
+
     </section>
 
 
     <section class="skills-hobbies">
-        <div class="skills-hobbies__skills">
+        <div class="skills-hobbies__skills" id="skills-hobbies__skills">
             <h2 class="skills-hobbies__title">Skills</h2>
             <ul class="skills-hobbies__list">
                 <li class="skills-hobbies__item">
@@ -98,7 +128,7 @@
             </ul>
         </div>
 
-        <div class="skills-hobbies__hobbies">
+        <div class="skills-hobbies__hobbies" id="skills-hobbies__hobbies">
             <h2 class="skills-hobbies__title">Hobbies</h2>
             <ul class="skills-hobbies__list">
                 <li class="skills-hobbies__item">
@@ -125,14 +155,15 @@
         </div>
     </section>
 
-    <section class="academic-formation">
+    <section class="academic-formation" id="academic-formation">
 
         <h2 class="academic-formation__title">Formación Académica</h2>
 
         <ul class="academic-body">
             <li class="academic-formation__item">
                 <div class="academic-image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Escudo_unach.png" alt="UNACH" width="70%">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Escudo_unach.png" alt="UNACH"
+                        width="70%" loading="lazy">
                 </div>
 
                 <h3 class="academic-formation__degree">Licenciatura en Sistemas Computacionales</h3>
@@ -143,7 +174,7 @@
                 <div class="academic-image">
                     <img src="img/alura.png" alt="ONE" width="70%" loading="lazy">
                 </div>
-                
+
                 </div>
                 <h3 class="academic-formation__degree">Maestría en Ciencias de la Computación</h3>
                 <p class="academic-formation__institution">ONE - Oracle Next Education</p>
@@ -155,39 +186,45 @@
     </section>
 
 
-    <section class="experience">
-        <h2 class="experience__title">Professional Experience</h2>
-
-
+    <section class="experience" id="experience">
+        <h2 class="experience__title">Proyectos</h2>
         <ul class="experience-body">
             <li class="experience__item">
-                <div class="experience__image">
-                    <!-- Aquí puedes agregar una imagen relacionada con el trabajo -->
-                </div>
+                <!-- <div class="experience__image">
+                    <img src="img/encriptador.png" alt="encriptador" width="100%">
+                </div> -->
+                <img src="img/encriptador.png" alt="encriptador" class="experience__image" loading="lazy">
                 <div class="experience__card">
-                    <h3 class="experience__item-title">Web Developer at XYZ Company</h3>
-                    <p class="experience__item-date"><strong>Date:</strong> June 2022 - Present</p>
+                    <h3 class="experience__item-title">Encriptador y desencriptador.</h3>
+                    <p class="experience__item-date">La pagina web es un encriptador y desencriptador.</p>
                     <div class="experience__links">
-                        <a href="#" class="experience__link experience__link--github">View GitHub</a>
-                        <a href="#" class="experience__link experience__link--demo">View Demo</a>
+                        <a href="https://github.com/VictorLopez09/encriptador-desencriptador" class="experience__link experience__link--github" target="_blank">Repositorio</a>
+                        <a href="https://victorlopez09.github.io/encriptador-desencriptador/" class="experience__link experience__link--demo" target="_blank">Demo</a>
                     </div>
                 </div>
             </li>
         </ul>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact__image">
             <img src="img/contact.jpg" alt="Contact Image" loading="lazy">
         </div>
 
         <div class="contact__form-content">
-            <h2 class="contact__title">Contact Me</h2>
+            <h2 class="contact__title">Contáctame</h2>
 
             <form action="#" method="POST" class="contact__form">
                 <div class="contact__form-group">
-                    <label for="name" class="contact__label">Name</label>
-                    <input type="text" id="name" name="name" class="contact__input" placeholder="Your Name" required>
+                    <label for="name" class="contact__label">Nombre</label>
+                    <input type="text" id="name" name="name" class="contact__input" placeholder="Nombre" required>
+                    <span class="contact__indicator"></span>
+                </div>
+
+                <div class="contact__form-group">
+                    <label for="subject" class="contact__label">Asunto</label>
+                    <input type="text" id="subject" name="subject" class="contact__input"
+                        placeholder="Escribe el asunto" required>
                     <span class="contact__indicator"></span>
                 </div>
 
@@ -199,30 +236,23 @@
                 </div>
 
                 <div class="contact__form-group">
-                    <label for="email" class="contact__label">Email</label>
-                    <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email"
-                        required>
-                    <span class="contact__indicator"></span>
-                </div>
-
-                <div class="contact__form-group">
-                    <label for="message" class="contact__label">Message</label>
-                    <textarea id="message" name="message" class="contact__textarea" placeholder="Your Message"
+                    <label for="message" class="contact__label">Mesaje</label>
+                    <textarea id="message" name="message" class="contact__textarea" placeholder="Tu Mesaje"
                         required></textarea>
                     <span class="contact__indicator"></span>
                 </div>
 
-                <button type="submit" class="contact__button">Send Message</button>
+                <button type="submit" class="contact__button">Enviar mensaje</button>
             </form>
         </div>
     </section>
 
     <footer>
         <p>
-            Desarrollado por Fulana de Tal
+            Desarrollado por Víctor Hugo López Gómez
         </p>
         <p>
-            2022
+            2024
         </p>
     </footer>
 </body>

@@ -26,6 +26,12 @@
     box-sizing: border-box;
 }
 
+.-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
 body {
     background-color: var(--color-primary);
 }
@@ -199,15 +205,16 @@ section {
 
 .experience__links>a {
     text-decoration: none;
-    border: 1px solid #2A7AE4;
+    border: 1px solid #3a5e8e;
     padding: 1rem;
     font-size: 16px;
+    font-weight: 600;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .experience__link--github {
     background-color: transparent;
-    color: #2A7AE4;
+    color: #3a5e8e;
 }
 
 .experience__link--github:hover {
@@ -406,7 +413,7 @@ footer{
 
     .experience__image {
         width: 100%;
-        height: 200px;
+        height: auto;
         background-color: aqua;
     }
 
