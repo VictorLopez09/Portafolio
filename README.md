@@ -4,6 +4,6 @@
 
 ## Secciones:
 - **Sobre mí**: Conoce más sobre mi trayectoria y mis intereses.
-- **Habilidades**: HTML, CSS, JS, PHP, Laravel
+- **Habilidades**: Tecnologías y herramientas que domino.
 - **Proyectos**: Algunos de los proyectos en los que he trabajado, con enlaces a demos y repositorios.
 - **Contacto**: ¿Te gustaría trabajar conmigo? ¡No dudes en enviarme un mensaje!
