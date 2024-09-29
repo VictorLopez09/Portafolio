@@ -111,7 +111,9 @@ section {
     background-color: var(--color-third);
     padding: 16px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
     gap: 8px;
 }
 
@@ -144,6 +146,9 @@ section {
     width: 368px;
     height: 286px;
     background-color: var(--color-third);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .academic-formation__item {
