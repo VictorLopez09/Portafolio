@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.min.css">
     <meta name="description" content="Este es mi portafolio de victor">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('8DY4SOcNNTnYqHK6q')
+    </script>
     <title>Mi portafolio</title>
 </head>
 
@@ -191,8 +196,10 @@
                     <h3 class="experience__item-title">Encriptador y desencriptador.</h3>
                     <p class="experience__item-date">La pagina web es un encriptador y desencriptador.</p>
                     <div class="experience__links">
-                        <a href="https://github.com/VictorLopez09/encriptador-desencriptador" class="experience__link experience__link--github" target="_blank">Repositorio</a>
-                        <a href="https://victorlopez09.github.io/encriptador-desencriptador/" class="experience__link experience__link--demo" target="_blank">Demo</a>
+                        <a href="https://github.com/VictorLopez09/encriptador-desencriptador"
+                            class="experience__link experience__link--github" target="_blank">Repositorio</a>
+                        <a href="https://victorlopez09.github.io/encriptador-desencriptador/"
+                            class="experience__link experience__link--demo" target="_blank">Demo</a>
                     </div>
                 </div>
             </li>
@@ -207,7 +214,7 @@
         <div class="contact__form-content">
             <h2 class="contact__title">Contáctame</h2>
 
-            <form action="#" method="POST" class="contact__form">
+            <form method="POST" class="contact__form" id="form">
                 <div class="contact__form-group">
                     <label for="name" class="contact__label">Nombre</label>
                     <input type="text" id="name" name="name" class="contact__input" placeholder="Nombre" required>
@@ -235,7 +242,7 @@
                     <span class="contact__indicator"></span>
                 </div>
 
-                <button type="submit" class="contact__button">Enviar mensaje</button>
+                <button type="submit" class="contact__button" id="button-send">Enviar mensaje</button>
             </form>
         </div>
     </section>
@@ -248,6 +255,12 @@
             2024
         </p>
     </footer>
+
+
+    <script src="js/app.js"></script>
+
+
+
 </body>
 
 </html>
