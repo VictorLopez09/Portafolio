@@ -189,6 +189,7 @@ section {
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+    padding-block: 1rem ;
 }
 
 .experience__image {
